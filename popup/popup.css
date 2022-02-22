@@ -1,3 +1,7 @@
+body {
+  width: 500px;
+}
+
 button {
   height: 30px;
   width: 30px;
@@ -8,6 +12,12 @@ button {
 }
 
 button.current {
-  box-shadow: 0 0 0 2px white,
-              0 0 0 4px black;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px black;
+}
+
+.add_url {
+}
+
+.add_json {
+  resize: vertical;
 }
